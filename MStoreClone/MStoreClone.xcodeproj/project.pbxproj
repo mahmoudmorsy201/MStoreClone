@@ -33,6 +33,7 @@
 		16439C56262A3DF5005BF5EC /* CategoriesVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C55262A3DF5005BF5EC /* CategoriesVCModel.swift */; };
 		16439C5B262A3E02005BF5EC /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C5A262A3E02005BF5EC /* CategoriesViewController.swift */; };
 		16439C60262A3E10005BF5EC /* CategoriesVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C5F262A3E10005BF5EC /* CategoriesVCPresenter.swift */; };
+		16439C68262B563F005BF5EC /* ProductsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C67262B563E005BF5EC /* ProductsListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		16439C55262A3DF5005BF5EC /* CategoriesVCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVCModel.swift; sourceTree = "<group>"; };
 		16439C5A262A3E02005BF5EC /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		16439C5F262A3E10005BF5EC /* CategoriesVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVCPresenter.swift; sourceTree = "<group>"; };
+		16439C67262B563E005BF5EC /* ProductsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				16439C08262A3C1C005BF5EC /* ProductsListViewController.swift */,
+				16439C67262B563E005BF5EC /* ProductsListTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -529,6 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16439C23262A3D4C005BF5EC /* AccountVCModel.swift in Sources */,
+				16439C68262B563F005BF5EC /* ProductsListTableViewCell.swift in Sources */,
 				16439C60262A3E10005BF5EC /* CategoriesVCPresenter.swift in Sources */,
 				16439C35262A3D7D005BF5EC /* CartVCModel.swift in Sources */,
 				16439C3A262A3D86005BF5EC /* CartViewController.swift in Sources */,
