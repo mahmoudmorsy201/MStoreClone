@@ -19,11 +19,7 @@ class ProductsListTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        shadowView.layer.cornerRadius = 8
-        productImage.layer.borderWidth = 1.0
-        productImage.layer.cornerRadius = 8
-        
-        
+        productImage.applyshadowWithCorner(containerView: shadowView, cornerRadious: 8)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -32,4 +28,20 @@ class ProductsListTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+}
+
+
+extension UIImageView {
+    func applyshadowWithCorner(containerView : UIView, cornerRadious : CGFloat){
+        containerView.clipsToBounds = false
+        containerView.layer.shadowColor = UIColor.black.cgColor
+        containerView.layer.shadowOpacity = 1
+//        containerView.layer.shadowOffset = CGSize.zero
+        containerView.layer.shadowOffset = CGSize(width: 0, height: 13)
+        containerView.layer.shadowRadius = 10
+        containerView.layer.cornerRadius = cornerRadious
+        containerView.layer.shadowPath = UIBezierPath(roundedRect: containerView.bounds, cornerRadius: cornerRadious).cgPath
+        self.clipsToBounds = true
+        self.layer.cornerRadius = cornerRadious
+    }
 }
