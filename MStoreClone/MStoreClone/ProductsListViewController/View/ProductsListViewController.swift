@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Combine
+import JGProgressHUD
 
 class ProductsListViewController: UIViewController {
     @IBOutlet weak var productsListTableView: UITableView! {
@@ -15,17 +17,35 @@ class ProductsListViewController: UIViewController {
         }
     }
     
+    let hud = JGProgressHUD()
+    let productsListViewModel = ProductsListViewModel()
+    var bag = Set<AnyCancellable>()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+     
+        productsListViewModel.loadProducts()
+        observeProductsViewModel()
     }
     
+    private func observeProductsViewModel() {
+        hud.textLabel.text = "Loading"
+        hud.show(in: self.view)
+        productsListViewModel.products
+            .sink(receiveCompletion: { _ in },
+                  receiveValue: {[weak self] (products) in
+            DispatchQueue.main.async {
+                self?.hud.dismiss()
+                self?.productsListTableView.reloadData()
+            }
+        }).store(in: &bag)
+        
+    }
 }
 
 extension ProductsListViewController: UITableViewDelegate , UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return productsListViewModel.products.value.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -34,16 +54,22 @@ extension ProductsListViewController: UITableViewDelegate , UITableViewDataSourc
             return UITableViewCell()
         }
         
-        if indexPath.row % 2 == 0 {
-            cell.leftStackView.isHidden = true
-        } else {
-            cell.rightStackView.isHidden = true
-        }
+        configureProductList(cell, at: indexPath)
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 250
+    }
+    
+    func configureProductList(_ cell: ProductsListTableViewCell, at indexPath: IndexPath) {
+        
+        let product = productsListViewModel.products.value[indexPath.row]
+        cell.configureProductCell(imgUrl: product.imageURL, title: product.category.productType)
+        
+        let showLeftSide = indexPath.row % 2 == 0
+        cell.leftStackView.isHidden = !showLeftSide
+        cell.rightStackView.isHidden = showLeftSide
     }
     
     

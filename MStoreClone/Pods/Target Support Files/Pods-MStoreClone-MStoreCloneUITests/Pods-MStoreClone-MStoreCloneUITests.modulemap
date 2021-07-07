@@ -1,0 +1,6 @@
+framework module Pods_MStoreClone_MStoreCloneUITests {
+  umbrella header "Pods-MStoreClone-MStoreCloneUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

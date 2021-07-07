@@ -33,13 +33,13 @@
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test2" translatesAutoresizingMaskIntoConstraints="NO" id="0I1-Zs-OR2">
                                                             <rect key="frame" x="0.0" y="0.0" width="358" height="200"/>
                                                         </imageView>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="j1K-EF-m6P">
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="j1K-EF-m6P">
                                                             <rect key="frame" x="252.5" y="74.5" width="73.5" height="51.5"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Men" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJc-mN-VDw">
-                                                                    <rect key="frame" x="23" y="0.0" width="50.5" height="29"/>
+                                                                    <rect key="frame" x="11.5" y="0.0" width="50.5" height="29"/>
                                                                     <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
-                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="m2E-kA-BkI">
@@ -48,13 +48,13 @@
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="59" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0G-xO-MT1">
                                                                             <rect key="frame" x="0.0" y="0.0" width="16" height="14.5"/>
                                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Products" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvq-w5-Uxt">
                                                                             <rect key="frame" x="20" y="0.0" width="53.5" height="14.5"/>
                                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -67,7 +67,7 @@
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Men" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3x-gz-m2L">
                                                                     <rect key="frame" x="0.0" y="0.0" width="50.5" height="29"/>
                                                                     <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
-                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ynk-VS-Cx3">
@@ -76,13 +76,13 @@
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="59" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMN-lD-M2R">
                                                                             <rect key="frame" x="0.0" y="0.0" width="16" height="14.5"/>
                                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Products" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdj-Zw-uwb">
                                                                             <rect key="frame" x="20" y="0.0" width="53.5" height="14.5"/>
                                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -111,10 +111,12 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="leftProductsCountLabel" destination="TMN-lD-M2R" id="RcF-PQ-6Pj"/>
+                                            <outlet property="leftProdutLabel" destination="A3x-gz-m2L" id="z44-JQ-cSN"/>
                                             <outlet property="leftStackView" destination="kID-JF-kNk" id="Mo9-PC-0tn"/>
                                             <outlet property="productImage" destination="0I1-Zs-OR2" id="qYO-Rr-1uo"/>
-                                            <outlet property="productLabel" destination="aJc-mN-VDw" id="n5H-nN-1iT"/>
-                                            <outlet property="productsCountLabel" destination="V0G-xO-MT1" id="KGQ-zX-sPb"/>
+                                            <outlet property="rightProductLabel" destination="aJc-mN-VDw" id="n5H-nN-1iT"/>
+                                            <outlet property="rightProductsCountLabel" destination="V0G-xO-MT1" id="KGQ-zX-sPb"/>
                                             <outlet property="rightStackView" destination="j1K-EF-m6P" id="L84-fD-SBP"/>
                                             <outlet property="shadowView" destination="d6z-hO-EQA" id="WdY-zM-Yna"/>
                                         </connections>
@@ -138,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UIi-eS-AQC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-823.1884057971015" y="566.51785714285711"/>
+            <point key="canvasLocation" x="-1081" y="530"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="eyb-r9-uuT">
