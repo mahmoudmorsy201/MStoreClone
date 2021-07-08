@@ -8,6 +8,7 @@
 public enum Endpoints {
     case getProductList
     case searchProduct
+    case getCategories
 }
 
 public extension Endpoints {
@@ -18,6 +19,8 @@ public extension Endpoints {
             return ProductsAPIs.getProductsList
         case .searchProduct:
             return ProductsAPIs.searchProduct
+        case .getCategories:
+            return ProductsAPIs.getCategories
         }
     }
 }

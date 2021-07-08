@@ -8,30 +8,26 @@
 import UIKit
 import SDWebImage
 
-class ProductsListTableViewCell: UITableViewCell {
+class CategoriesListTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var rightStackView: UIStackView!
-    @IBOutlet weak var leftStackView: UIStackView!
     @IBOutlet weak var shadowView: UIView!
-    @IBOutlet weak var productImage: UIImageView!
-    @IBOutlet weak var rightProductLabel: UILabel!
-    @IBOutlet weak var rightProductsCountLabel: UILabel!
-    @IBOutlet weak var leftProductsCountLabel: UILabel!
-    @IBOutlet weak var leftProdutLabel: UILabel!
+    @IBOutlet weak var categoriesImage: UIImageView!
+    @IBOutlet weak var centerStackView: UIStackView!
+    @IBOutlet weak var categoryNameLabel: UILabel!
+    @IBOutlet weak var productsCountLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        productImage.applyshadowWithCorner(containerView: shadowView, cornerRadious: 8)
+        categoriesImage.applyshadowWithCorner(containerView: shadowView, cornerRadious: 8)
     }
     
-    func configureProductCell(imgUrl: String? , title: String?) {
+    func configureProductCell(title: String?) {
         
-        let url = URL(string: imgUrl ?? "")
-        let placeholderImg = UIImage(named: "test2")
-        
-        productImage.sd_setImage(with: url, placeholderImage: placeholderImg)
-        rightProductLabel.text = title
-        leftProdutLabel.text = title
+//        let url = URL(string: imgUrl ?? "")
+//        let placeholderImg = UIImage(named: "test2")
+//        
+//        productImage.sd_setImage(with: url, placeholderImage: placeholderImg)
+        categoryNameLabel.text = title
     }
 
 }

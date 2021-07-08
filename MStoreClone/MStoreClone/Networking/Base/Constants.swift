@@ -11,6 +11,7 @@ enum Path {
     enum Products {
         public static let productList = "/products"
         public static let searchProduct = ""
+        public static let getCategories = "/categories"
     }
 }
 

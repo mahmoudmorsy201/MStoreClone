@@ -13,6 +13,7 @@ import Alamofire
 enum ProductsAPIs: URLRequestBuilder {
     case getProductsList
     case searchProduct
+    case getCategories
 }
 
 extension ProductsAPIs {
@@ -22,6 +23,8 @@ extension ProductsAPIs {
             return Path.Products.productList
         case .searchProduct:
             return Path.Products.searchProduct
+        case .getCategories:
+            return Path.Products.getCategories
         }
     }
 }
@@ -33,6 +36,8 @@ extension ProductsAPIs {
             return [:]
         case .searchProduct:
             return [:]
+        case .getCategories:
+            return [:]
         }
     }
 }
@@ -43,6 +48,8 @@ extension ProductsAPIs {
         case .getProductsList:
             return HTTPMethod.get
         case .searchProduct:
+            return HTTPMethod.get
+        case .getCategories:
             return HTTPMethod.get
         }
     }

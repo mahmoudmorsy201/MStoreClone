@@ -10,8 +10,6 @@ import Foundation
 
 struct Product: Codable {
 
-    
-    
     let richDescription: String
     let imageURL: String
     let imagesArray: [String]
@@ -28,7 +26,6 @@ struct Product: Codable {
     let countInStock: Int
     let dateCreated: String
     let productId: String
-    
     
     
     private enum CodingKeys : String, CodingKey {

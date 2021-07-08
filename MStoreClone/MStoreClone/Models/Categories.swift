@@ -1,22 +1,21 @@
 //
-//  Category.swift
+//  Categories.swift
 //  MStoreClone
 //
-//  Created by Mahmoud Morsy on 03/07/2021.
+//  Created by Mahmoud Morsy on 07/07/2021.
 //
 
 import Foundation
 
-struct Category: Codable {
+struct Categories: Codable {
     let idPrdouct: String
     let productType: String
-    let v: Int?
+
     
     private enum CodingKeys : String, CodingKey {
         
-        case idPrdouct = "_id"
+        case idPrdouct = "id"
         case productType = "name"
-        case v = "__v"
         
     }
     
