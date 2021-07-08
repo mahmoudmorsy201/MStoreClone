@@ -25,11 +25,11 @@
 		16439BBE262A0F6B005BF5EC /* MStoreCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439BBD262A0F6B005BF5EC /* MStoreCloneTests.swift */; };
 		16439BC9262A0F6B005BF5EC /* MStoreCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439BC8262A0F6B005BF5EC /* MStoreCloneUITests.swift */; };
 		16439C01262A3C07005BF5EC /* CategoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C00262A3C07005BF5EC /* CategoriesListViewModel.swift */; };
-		16439C09262A3C1C005BF5EC /* ProductsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C08262A3C1C005BF5EC /* ProductsListViewController.swift */; };
+		16439C09262A3C1C005BF5EC /* CategoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C08262A3C1C005BF5EC /* CategoriesListViewController.swift */; };
 		16439C2B262A3D5E005BF5EC /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C2A262A3D5E005BF5EC /* AccountViewController.swift */; };
 		16439C3A262A3D86005BF5EC /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C39262A3D86005BF5EC /* CartViewController.swift */; };
 		16439C49262A3DAF005BF5EC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C48262A3DAF005BF5EC /* SearchViewController.swift */; };
-		16439C68262B563F005BF5EC /* ProductsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C67262B563E005BF5EC /* ProductsListTableViewCell.swift */; };
+		16439C68262B563F005BF5EC /* CategoriesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C67262B563E005BF5EC /* CategoriesListTableViewCell.swift */; };
 		16439C76262CF0F6005BF5EC /* InfoAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C75262CF0F6005BF5EC /* InfoAccountTableViewCell.swift */; };
 		16439C7B262CF119005BF5EC /* CurrencyAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C7A262CF119005BF5EC /* CurrencyAccountTableViewCell.swift */; };
 		16439C83262CF539005BF5EC /* AccountFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16439C82262CF539005BF5EC /* AccountFirstTableViewCell.swift */; };
@@ -86,11 +86,11 @@
 		16439BC8262A0F6B005BF5EC /* MStoreCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MStoreCloneUITests.swift; sourceTree = "<group>"; };
 		16439BCA262A0F6B005BF5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16439C00262A3C07005BF5EC /* CategoriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListViewModel.swift; sourceTree = "<group>"; };
-		16439C08262A3C1C005BF5EC /* ProductsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListViewController.swift; sourceTree = "<group>"; };
+		16439C08262A3C1C005BF5EC /* CategoriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListViewController.swift; sourceTree = "<group>"; };
 		16439C2A262A3D5E005BF5EC /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		16439C39262A3D86005BF5EC /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		16439C48262A3DAF005BF5EC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		16439C67262B563E005BF5EC /* ProductsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListTableViewCell.swift; sourceTree = "<group>"; };
+		16439C67262B563E005BF5EC /* CategoriesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListTableViewCell.swift; sourceTree = "<group>"; };
 		16439C75262CF0F6005BF5EC /* InfoAccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAccountTableViewCell.swift; sourceTree = "<group>"; };
 		16439C7A262CF119005BF5EC /* CurrencyAccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyAccountTableViewCell.swift; sourceTree = "<group>"; };
 		16439C82262CF539005BF5EC /* AccountFirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountFirstTableViewCell.swift; sourceTree = "<group>"; };
@@ -278,7 +278,7 @@
 		16439BFE262A3BBC005BF5EC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				16439C08262A3C1C005BF5EC /* ProductsListViewController.swift */,
+				16439C08262A3C1C005BF5EC /* CategoriesListViewController.swift */,
 				16DEA3782696DCAB0038DF3D /* Cells */,
 			);
 			path = View;
@@ -363,7 +363,7 @@
 		16DEA3782696DCAB0038DF3D /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				16439C67262B563E005BF5EC /* ProductsListTableViewCell.swift */,
+				16439C67262B563E005BF5EC /* CategoriesListTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -630,7 +630,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16439C83262CF539005BF5EC /* AccountFirstTableViewCell.swift in Sources */,
-				16439C68262B563F005BF5EC /* ProductsListTableViewCell.swift in Sources */,
+				16439C68262B563F005BF5EC /* CategoriesListTableViewCell.swift in Sources */,
 				16375AFD268E308E001D3D6D /* ProductsAPI.swift in Sources */,
 				16375AE9268E2F77001D3D6D /* Constants.swift in Sources */,
 				16439C3A262A3D86005BF5EC /* CartViewController.swift in Sources */,
@@ -644,7 +644,7 @@
 				16439BA6262A0F68005BF5EC /* SceneDelegate.swift in Sources */,
 				16439C7B262CF119005BF5EC /* CurrencyAccountTableViewCell.swift in Sources */,
 				16375AEE268E2FCE001D3D6D /* Servers.swift in Sources */,
-				16439C09262A3C1C005BF5EC /* ProductsListViewController.swift in Sources */,
+				16439C09262A3C1C005BF5EC /* CategoriesListViewController.swift in Sources */,
 				16439BAE262A0F68005BF5EC /* MStoreClone.xcdatamodeld in Sources */,
 				16DEA308269095A40038DF3D /* Category.swift in Sources */,
 				16439C88262D0BD8005BF5EC /* IndicatorAccountTableViewCell.swift in Sources */,

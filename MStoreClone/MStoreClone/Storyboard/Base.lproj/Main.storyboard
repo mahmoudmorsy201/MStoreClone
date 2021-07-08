@@ -63,6 +63,10 @@
                                                                             </subviews>
                                                                         </stackView>
                                                                     </subviews>
+                                                                    <constraints>
+                                                                        <constraint firstItem="4PE-3a-6dK" firstAttribute="leading" secondItem="dYW-mb-f1e" secondAttribute="leading" id="Mdm-fk-orW"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="4PE-3a-6dK" secondAttribute="trailing" id="PQK-gO-dhl"/>
+                                                                    </constraints>
                                                                 </stackView>
                                                             </subviews>
                                                         </stackView>
@@ -108,7 +112,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="square.grid.2x2" catalog="system" id="1mY-oS-4yG"/>
                     <connections>
-                        <outlet property="CategoriesListTableView" destination="Tjv-Ub-HyI" id="kjS-Bz-JPE"/>
+                        <outlet property="categoriesListTableView" destination="Tjv-Ub-HyI" id="vYb-9N-UHV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UIi-eS-AQC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -1,5 +1,5 @@
 //
-//  ProductsListTableViewCell.swift
+//  CategoriesListTableViewCell.swift
 //  MStoreClone
 //
 //  Created by Mahmoud Morsy on 17/04/2021.
