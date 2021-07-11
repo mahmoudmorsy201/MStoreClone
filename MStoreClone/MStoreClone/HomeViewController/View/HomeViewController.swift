@@ -35,6 +35,8 @@ class HomeViewController: UIViewController {
     }
     @IBOutlet weak var categoryImage1: UIImageView!
     @IBOutlet weak var categoryImage2: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureCategoryImageView()
