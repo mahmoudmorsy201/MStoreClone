@@ -9,6 +9,8 @@ public enum Endpoints {
     case getProductList
     case searchProduct
     case getCategories
+    case login
+    case register
 }
 
 public extension Endpoints {
@@ -21,6 +23,10 @@ public extension Endpoints {
             return ProductsAPIs.searchProduct
         case .getCategories:
             return ProductsAPIs.getCategories
+        case .login:
+            return AuthApi.logIn
+        case .register:
+            return AuthApi.register
         }
     }
 }

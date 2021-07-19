@@ -13,6 +13,12 @@ enum Path {
         public static let searchProduct = ""
         public static let getCategories = "/categories"
     }
+    
+    enum Auth {
+        public static let register = "/users/register"
+        public static let login = "/users/login"
+
+    }
 }
 
 enum Keys {
