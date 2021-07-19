@@ -40,6 +40,7 @@
 		16F4F6342698FB9200D8239D /* SalesCardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4F6332698FB9200D8239D /* SalesCardsCollectionViewCell.swift */; };
 		16F4F63926999A1600D8239D /* FeatureProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4F63826999A1600D8239D /* FeatureProductsCollectionViewCell.swift */; };
 		16F4F63E269A431200D8239D /* BagsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4F63D269A431200D8239D /* BagsCollectionViewCell.swift */; };
+<<<<<<< HEAD
 		16F4F65C269C0CAD00D8239D /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4F65B269C0CAD00D8239D /* CartTableViewCell.swift */; };
 		16F4F680269E558700D8239D /* MainCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4F67F269E558700D8239D /* MainCartViewController.swift */; };
 		16F4F685269E559400D8239D /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4F684269E559400D8239D /* FormViewController.swift */; };
@@ -51,6 +52,20 @@
 		28134CCB76435EC018CD24A4 /* Pods_MStoreClone_MStoreCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B670D2193C69F9D069604ED /* Pods_MStoreClone_MStoreCloneUITests.framework */; };
 		34061688A79F0BF00482D377 /* Pods_MStoreClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90D6FB3441B51093DB5D25F /* Pods_MStoreClone.framework */; };
 		65A75CFF6C7CB17CE02CAD5D /* Pods_MStoreCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAA839D21E45714F6BCE431 /* Pods_MStoreCloneTests.framework */; };
+=======
+		28134CCB76435EC018CD24A4 /* Pods_MStoreClone_MStoreCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B670D2193C69F9D069604ED /* Pods_MStoreClone_MStoreCloneUITests.framework */; };
+		34061688A79F0BF00482D377 /* Pods_MStoreClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90D6FB3441B51093DB5D25F /* Pods_MStoreClone.framework */; };
+		65A75CFF6C7CB17CE02CAD5D /* Pods_MStoreCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAA839D21E45714F6BCE431 /* Pods_MStoreCloneTests.framework */; };
+<<<<<<< HEAD
+		9043D22A269F12C90032F489 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9043D229269F12C90032F489 /* ProductDetailsViewController.swift */; };
+		90BCCD61269C5CFA00B0FB98 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCCD60269C5CFA00B0FB98 /* LoginViewController.swift */; };
+		90BCCD67269C610700B0FB98 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCCD66269C610700B0FB98 /* LoginViewModel.swift */; };
+		90BCCD72269C66DF00B0FB98 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCCD71269C66DF00B0FB98 /* AuthApi.swift */; };
+		90DBA3F826A05FCC0087423C /* DataPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DBA3F726A05FCC0087423C /* DataPickerViewController.swift */; };
+=======
+		90430410269B12970057FC50 /* UsersApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9043040F269B12970057FC50 /* UsersApi.swift */; };
+>>>>>>> origin
+>>>>>>> origin
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +128,7 @@
 		16F4F6332698FB9200D8239D /* SalesCardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesCardsCollectionViewCell.swift; sourceTree = "<group>"; };
 		16F4F63826999A1600D8239D /* FeatureProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureProductsCollectionViewCell.swift; sourceTree = "<group>"; };
 		16F4F63D269A431200D8239D /* BagsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagsCollectionViewCell.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		16F4F65B269C0CAD00D8239D /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CartTableViewCell.swift; path = ../../../../../../CartTableViewCell.swift; sourceTree = "<group>"; };
 		16F4F67F269E558700D8239D /* MainCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCartViewController.swift; sourceTree = "<group>"; };
 		16F4F684269E559400D8239D /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +139,19 @@
 		16F4F69D26A03C9E00D8239D /* TotalPriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalPriceTableViewCell.swift; sourceTree = "<group>"; };
 		5B670D2193C69F9D069604ED /* Pods_MStoreClone_MStoreCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MStoreClone_MStoreCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		826BE4AE498A25CE280EE635 /* Pods-MStoreCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MStoreCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-MStoreCloneTests/Pods-MStoreCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+=======
+		5B670D2193C69F9D069604ED /* Pods_MStoreClone_MStoreCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MStoreClone_MStoreCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		826BE4AE498A25CE280EE635 /* Pods-MStoreCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MStoreCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-MStoreCloneTests/Pods-MStoreCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		9043D229269F12C90032F489 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		90BCCD60269C5CFA00B0FB98 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		90BCCD66269C610700B0FB98 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		90BCCD71269C66DF00B0FB98 /* AuthApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
+		90DBA3F726A05FCC0087423C /* DataPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPickerViewController.swift; sourceTree = "<group>"; };
+=======
+		9043040F269B12970057FC50 /* UsersApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersApi.swift; sourceTree = "<group>"; };
+>>>>>>> origin
+>>>>>>> origin
 		9CAA839D21E45714F6BCE431 /* Pods_MStoreCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MStoreCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6633A69A42ABCA8407D5B6E /* Pods-MStoreClone-MStoreCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MStoreClone-MStoreCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-MStoreClone-MStoreCloneUITests/Pods-MStoreClone-MStoreCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C1108A0243DC61CE764A6D73 /* Pods-MStoreClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MStoreClone.release.xcconfig"; path = "Target Support Files/Pods-MStoreClone/Pods-MStoreClone.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +192,7 @@
 				16375ADF268E2F21001D3D6D /* Base */,
 				16375AFC268E308E001D3D6D /* ProductsAPI.swift */,
 				16375B01268E30B8001D3D6D /* EndPoints.swift */,
+				90BCCD71269C66DF00B0FB98 /* AuthApi.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -214,6 +244,8 @@
 		16439BA2262A0F68005BF5EC /* MStoreClone */ = {
 			isa = PBXGroup;
 			children = (
+				9043D227269F128E0032F489 /* ProductDetailsViewController */,
+				90BCCD56269C5C0B00B0FB98 /* LoginViewController */,
 				16375AAA268CCA7F001D3D6D /* Networking */,
 				16375ACA268D0B8B001D3D6D /* Models */,
 				16DEA3772696DC740038DF3D /* ViewModels */,
@@ -386,6 +418,7 @@
 		16DEA3772696DC740038DF3D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				90BCCD65269C60AA00B0FB98 /* LoginViewModel */,
 				16439BFF262A3BC2005BF5EC /* CategoriesListViewModel */,
 			);
 			path = ViewModels;
@@ -410,6 +443,7 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		16F4F65A269C0C9000D8239D /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,6 +454,8 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> origin
 		34D97C227ACA2E1A7A3F704D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -428,6 +464,47 @@
 				9CAA839D21E45714F6BCE431 /* Pods_MStoreCloneTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9043D227269F128E0032F489 /* ProductDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9043D228269F12A30032F489 /* View */,
+			);
+			path = ProductDetailsViewController;
+			sourceTree = "<group>";
+		};
+		9043D228269F12A30032F489 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9043D229269F12C90032F489 /* ProductDetailsViewController.swift */,
+				90DBA3F726A05FCC0087423C /* DataPickerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90BCCD56269C5C0B00B0FB98 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				90BCCD57269C5C2300B0FB98 /* View */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		90BCCD57269C5C2300B0FB98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90BCCD60269C5CFA00B0FB98 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90BCCD65269C60AA00B0FB98 /* LoginViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				90BCCD66269C610700B0FB98 /* LoginViewModel.swift */,
+			);
+			path = LoginViewModel;
 			sourceTree = "<group>";
 		};
 		9552BC177D3CC2D53152DBE2 /* Pods */ = {
@@ -681,13 +758,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				16F4F694269F653200D8239D /* PlaceholderViewController.swift in Sources */,
+=======
+				90BCCD67269C610700B0FB98 /* LoginViewModel.swift in Sources */,
+>>>>>>> origin
 				16439C83262CF539005BF5EC /* AccountFirstTableViewCell.swift in Sources */,
 				16439C68262B563F005BF5EC /* CategoriesListTableViewCell.swift in Sources */,
 				16F4F65C269C0CAD00D8239D /* CartTableViewCell.swift in Sources */,
 				16375AFD268E308E001D3D6D /* ProductsAPI.swift in Sources */,
 				16375AE9268E2F77001D3D6D /* Constants.swift in Sources */,
 				1683AB232698C409006FB9B9 /* CategoriesCollectionViewCell.swift in Sources */,
+<<<<<<< HEAD
+=======
+				90BCCD61269C5CFA00B0FB98 /* LoginViewController.swift in Sources */,
+>>>>>>> origin
 				16439C3A262A3D86005BF5EC /* CartViewController.swift in Sources */,
 				16F4F680269E558700D8239D /* MainCartViewController.swift in Sources */,
 				16439C76262CF0F6005BF5EC /* InfoAccountTableViewCell.swift in Sources */,
@@ -695,15 +780,23 @@
 				16439C49262A3DAF005BF5EC /* SearchViewController.swift in Sources */,
 				16439BA8262A0F68005BF5EC /* HomeViewController.swift in Sources */,
 				16439BA4262A0F68005BF5EC /* AppDelegate.swift in Sources */,
+				90BCCD72269C66DF00B0FB98 /* AuthApi.swift in Sources */,
 				16375AF8268E3032001D3D6D /* URLRequestBuilder.swift in Sources */,
 				16DEA35E26961E2C0038DF3D /* Categories.swift in Sources */,
+<<<<<<< HEAD
 				16F4F685269E559400D8239D /* FormViewController.swift in Sources */,
+=======
+				9043D22A269F12C90032F489 /* ProductDetailsViewController.swift in Sources */,
+>>>>>>> origin
 				16375ACC268D0BA3001D3D6D /* Product.swift in Sources */,
 				16439BA6262A0F68005BF5EC /* SceneDelegate.swift in Sources */,
 				16439C7B262CF119005BF5EC /* CurrencyAccountTableViewCell.swift in Sources */,
 				16F4F63E269A431200D8239D /* BagsCollectionViewCell.swift in Sources */,
+<<<<<<< HEAD
 				16F4F68A269F19B000D8239D /* PaymentViewController.swift in Sources */,
 				16F4F68F269F19C700D8239D /* OrderViewController.swift in Sources */,
+=======
+>>>>>>> origin
 				16375AEE268E2FCE001D3D6D /* Servers.swift in Sources */,
 				16439C09262A3C1C005BF5EC /* CategoriesListViewController.swift in Sources */,
 				16439BAE262A0F68005BF5EC /* MStoreClone.xcdatamodeld in Sources */,
@@ -714,9 +807,20 @@
 				16375AE1268E2F35001D3D6D /* AppEnvironement.swift in Sources */,
 				16439C01262A3C07005BF5EC /* CategoriesListViewModel.swift in Sources */,
 				16F4F63926999A1600D8239D /* FeatureProductsCollectionViewCell.swift in Sources */,
+<<<<<<< HEAD
 				16375B02268E30B8001D3D6D /* EndPoints.swift in Sources */,
 				16439C2B262A3D5E005BF5EC /* AccountViewController.swift in Sources */,
 				16F4F6342698FB9200D8239D /* SalesCardsCollectionViewCell.swift in Sources */,
+=======
+				90DBA3F826A05FCC0087423C /* DataPickerViewController.swift in Sources */,
+				16375B02268E30B8001D3D6D /* EndPoints.swift in Sources */,
+				16439C2B262A3D5E005BF5EC /* AccountViewController.swift in Sources */,
+<<<<<<< HEAD
+				16F4F6342698FB9200D8239D /* SalesCardsCollectionViewCell.swift in Sources */,
+=======
+				90430410269B12970057FC50 /* UsersApi.swift in Sources */,
+>>>>>>> origin
+>>>>>>> origin
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
