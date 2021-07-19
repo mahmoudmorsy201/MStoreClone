@@ -43,11 +43,15 @@
 		28134CCB76435EC018CD24A4 /* Pods_MStoreClone_MStoreCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B670D2193C69F9D069604ED /* Pods_MStoreClone_MStoreCloneUITests.framework */; };
 		34061688A79F0BF00482D377 /* Pods_MStoreClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90D6FB3441B51093DB5D25F /* Pods_MStoreClone.framework */; };
 		65A75CFF6C7CB17CE02CAD5D /* Pods_MStoreCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CAA839D21E45714F6BCE431 /* Pods_MStoreCloneTests.framework */; };
+<<<<<<< HEAD
 		9043D22A269F12C90032F489 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9043D229269F12C90032F489 /* ProductDetailsViewController.swift */; };
 		90BCCD61269C5CFA00B0FB98 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCCD60269C5CFA00B0FB98 /* LoginViewController.swift */; };
 		90BCCD67269C610700B0FB98 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCCD66269C610700B0FB98 /* LoginViewModel.swift */; };
 		90BCCD72269C66DF00B0FB98 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BCCD71269C66DF00B0FB98 /* AuthApi.swift */; };
 		90DBA3F826A05FCC0087423C /* DataPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DBA3F726A05FCC0087423C /* DataPickerViewController.swift */; };
+=======
+		90430410269B12970057FC50 /* UsersApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9043040F269B12970057FC50 /* UsersApi.swift */; };
+>>>>>>> origin
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,11 +116,15 @@
 		16F4F63D269A431200D8239D /* BagsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagsCollectionViewCell.swift; sourceTree = "<group>"; };
 		5B670D2193C69F9D069604ED /* Pods_MStoreClone_MStoreCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MStoreClone_MStoreCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		826BE4AE498A25CE280EE635 /* Pods-MStoreCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MStoreCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-MStoreCloneTests/Pods-MStoreCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		9043D229269F12C90032F489 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
 		90BCCD60269C5CFA00B0FB98 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		90BCCD66269C610700B0FB98 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		90BCCD71269C66DF00B0FB98 /* AuthApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
 		90DBA3F726A05FCC0087423C /* DataPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPickerViewController.swift; sourceTree = "<group>"; };
+=======
+		9043040F269B12970057FC50 /* UsersApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersApi.swift; sourceTree = "<group>"; };
+>>>>>>> origin
 		9CAA839D21E45714F6BCE431 /* Pods_MStoreCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MStoreCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6633A69A42ABCA8407D5B6E /* Pods-MStoreClone-MStoreCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MStoreClone-MStoreCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-MStoreClone-MStoreCloneUITests/Pods-MStoreClone-MStoreCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C1108A0243DC61CE764A6D73 /* Pods-MStoreClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MStoreClone.release.xcconfig"; path = "Target Support Files/Pods-MStoreClone/Pods-MStoreClone.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,6 +164,7 @@
 			children = (
 				16375ADF268E2F21001D3D6D /* Base */,
 				16375AFC268E308E001D3D6D /* ProductsAPI.swift */,
+				9043040F269B12970057FC50 /* UsersApi.swift */,
 				16375B01268E30B8001D3D6D /* EndPoints.swift */,
 				90BCCD71269C66DF00B0FB98 /* AuthApi.swift */,
 			);
@@ -736,7 +745,11 @@
 				90DBA3F826A05FCC0087423C /* DataPickerViewController.swift in Sources */,
 				16375B02268E30B8001D3D6D /* EndPoints.swift in Sources */,
 				16439C2B262A3D5E005BF5EC /* AccountViewController.swift in Sources */,
+<<<<<<< HEAD
 				16F4F6342698FB9200D8239D /* SalesCardsCollectionViewCell.swift in Sources */,
+=======
+				90430410269B12970057FC50 /* UsersApi.swift in Sources */,
+>>>>>>> origin
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

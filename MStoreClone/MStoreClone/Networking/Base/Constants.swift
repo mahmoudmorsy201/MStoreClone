@@ -14,10 +14,15 @@ enum Path {
         public static let getCategories = "/categories"
     }
     
+<<<<<<< HEAD
     enum Auth {
         public static let register = "/users/register"
         public static let login = "/users/login"
 
+=======
+    enum Users {
+        public static let loginUser = "/login"
+>>>>>>> origin
     }
 }
 
