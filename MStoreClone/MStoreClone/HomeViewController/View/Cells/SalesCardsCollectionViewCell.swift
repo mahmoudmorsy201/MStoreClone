@@ -15,7 +15,7 @@ class SalesCardsCollectionViewCell: UICollectionViewCell {
     
     
     func roundedCard() {
-        saleImageView.makeCardWithRoundedCorner()
+        saleImageView.makeRounded(borderColor:  UIColor.lightGray.cgColor, with: 16)
     }
     
     func configureCell(imageName: String, description: String, price: String) {
@@ -24,14 +24,4 @@ class SalesCardsCollectionViewCell: UICollectionViewCell {
         priceLabel.text = price
     }
     
-}
-
-extension UIView {
-    func makeCardWithRoundedCorner() {
-         self.layer.borderWidth = 1
-         self.layer.masksToBounds = false
-         self.layer.borderColor = UIColor.lightGray.cgColor
-         self.layer.cornerRadius = self.frame.height / 16
-         self.clipsToBounds = true
-     }
 }

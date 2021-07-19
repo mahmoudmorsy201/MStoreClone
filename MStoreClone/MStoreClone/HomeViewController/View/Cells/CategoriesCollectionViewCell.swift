@@ -14,7 +14,7 @@ class CategoriesCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var circleView: UIView!
 
     func circleAvatar() {
-        categoryImage.makeRounded()
+        categoryImage.makeRounded(borderColor: UIColor.black.cgColor, with: 2)
     }
     
     func configureCell(imageName: String, title: String, backgroundColor: UIColor) {
@@ -25,11 +25,11 @@ class CategoriesCollectionViewCell: UICollectionViewCell {
 }
 
 extension UIView {
-    func makeRounded() {
-         self.layer.borderWidth = 1
-         self.layer.masksToBounds = false
-         self.layer.borderColor = UIColor.black.cgColor
-         self.layer.cornerRadius = self.frame.height / 2
-         self.clipsToBounds = true
+    func makeRounded(borderColor: CGColor, with divider: CGFloat) {
+        self.layer.borderWidth = 1
+        self.layer.masksToBounds = false
+        self.layer.borderColor = borderColor
+        self.layer.cornerRadius = self.frame.height / divider
+        self.clipsToBounds = true
      }
 }

@@ -12,4 +12,8 @@ class FeatureProductsCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var descriptionFeatureProduct: UILabel!
     @IBOutlet weak var featureProductPriceLabel: UILabel!
     
+    func roundedCard() {
+        featureProductImage.makeRounded(borderColor:  UIColor.lightGray.cgColor, with: 16)
+    }
+    
 }

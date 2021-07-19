@@ -43,11 +43,9 @@ class HomeViewController: UIViewController {
     }
     
     func configureCategoryImageView() {
-        categoryImage1.makeCardWithRoundedCorner()
-        categoryImage2.makeCardWithRoundedCorner()
+        categoryImage1.makeRounded(borderColor:  UIColor.lightGray.cgColor, with: 16)
+        categoryImage2.makeRounded(borderColor:  UIColor.lightGray.cgColor, with: 16)
     }
-    
-
 }
 
 extension HomeViewController: UICollectionViewDataSource,UICollectionViewDelegate {
@@ -77,18 +75,16 @@ extension HomeViewController: UICollectionViewDataSource,UICollectionViewDelegat
             guard let featureProductsCell = featureProductsCollectionView.dequeueReusableCell(withReuseIdentifier: String(describing: FeatureProductsCollectionViewCell.self)  , for: indexPath) as? FeatureProductsCollectionViewCell else {
                 return UICollectionViewCell()
             }
-            featureProductsCell.featureProductImage.makeCardWithRoundedCorner()
+            featureProductsCell.roundedCard()
             return featureProductsCell
         } else if collectionView == self.bagsCollectionView {
             
             guard let bagsCell = bagsCollectionView.dequeueReusableCell(withReuseIdentifier: String(describing: BagsCollectionViewCell.self)  , for: indexPath) as? BagsCollectionViewCell else {
                 return UICollectionViewCell()
             }
-            bagsCell.bagImageView.makeCardWithRoundedCorner()
+            bagsCell.roundedCard()
             return bagsCell
-        }
-        
-        else {
+        } else {
             return UICollectionViewCell()
         }
     }
